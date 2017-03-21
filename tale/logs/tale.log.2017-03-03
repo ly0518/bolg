@@ -1,0 +1,575 @@
+[tale] 2017-03-03 12:08:38,011 INFO  [main] org.eclipse.jetty.util.log | Logging initialized @1395ms to org.eclipse.jetty.util.log.Slf4jLog
+[tale] 2017-03-03 12:08:38,465 INFO  [main] org.eclipse.jetty.server.Server | jetty-9.4.0.v20161208
+[tale] 2017-03-03 12:08:39,069 INFO  [main] org.eclipse.jetty.webapp.StandardDescriptorProcessor | NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[tale] 2017-03-03 12:08:39,107 INFO  [main] org.eclipse.jetty.server.session | DefaultSessionIdManager workerName=node0
+[tale] 2017-03-03 12:08:39,108 INFO  [main] org.eclipse.jetty.server.session | No SessionScavenger set, using defaults
+[tale] 2017-03-03 12:08:39,117 INFO  [main] org.eclipse.jetty.server.session | Scavenging every 660000ms
+[tale] 2017-03-03 12:08:39,157 INFO  [main] com.blade.mvc.context.BladeInitListener | jdk.version	=> 1.8.0_31
+[tale] 2017-03-03 12:08:39,157 INFO  [main] com.blade.mvc.context.BladeInitListener | user.dir		=> G:\git\tale
+[tale] 2017-03-03 12:08:39,157 INFO  [main] com.blade.mvc.context.BladeInitListener | java.io.tmpdir	=> C:\Users\think\AppData\Local\Temp\
+[tale] 2017-03-03 12:08:39,157 INFO  [main] com.blade.mvc.context.BladeInitListener | user.timezone	=> Asia/Shanghai
+[tale] 2017-03-03 12:08:39,157 INFO  [main] com.blade.mvc.context.BladeInitListener | file.encoding	=> UTF-8
+[tale] 2017-03-03 12:08:39,161 INFO  [main] com.blade.mvc.context.BladeInitListener | blade.webroot	=> G:\git\tale\target\classes
+[tale] 2017-03-03 12:08:39,229 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/links
+[tale] 2017-03-03 12:08:39,232 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/links/delete
+[tale] 2017-03-03 12:08:39,233 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/links/save
+[tale] 2017-03-03 12:08:39,233 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/attach
+[tale] 2017-03-03 12:08:39,234 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/attach/delete
+[tale] 2017-03-03 12:08:39,234 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/attach/upload
+[tale] 2017-03-03 12:08:39,235 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page
+[tale] 2017-03-03 12:08:39,236 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/page/delete
+[tale] 2017-03-03 12:08:39,236 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/page/modify
+[tale] 2017-03-03 12:08:39,236 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page/new
+[tale] 2017-03-03 12:08:39,237 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page/:cid
+[tale] 2017-03-03 12:08:39,237 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/page/publish
+[tale] 2017-03-03 12:08:39,238 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article
+[tale] 2017-03-03 12:08:39,239 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/article/delete
+[tale] 2017-03-03 12:08:39,239 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/article/publish
+[tale] 2017-03-03 12:08:39,243 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article/:cid
+[tale] 2017-03-03 12:08:39,243 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article/publish
+[tale] 2017-03-03 12:08:39,243 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/article/modify
+[tale] 2017-03-03 12:08:39,245 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin
+[tale] 2017-03-03 12:08:39,245 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/index
+[tale] 2017-03-03 12:08:39,245 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/profile
+[tale] 2017-03-03 12:08:39,246 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/backup
+[tale] 2017-03-03 12:08:39,246 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/setting
+[tale] 2017-03-03 12:08:39,247 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/setting
+[tale] 2017-03-03 12:08:39,247 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/profile
+[tale] 2017-03-03 12:08:39,248 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/password
+[tale] 2017-03-03 12:08:39,249 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/login
+[tale] 2017-03-03 12:08:39,250 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/login
+[tale] 2017-03-03 12:08:39,250 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/page/:p
+[tale] 2017-03-03 12:08:39,251 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/
+[tale] 2017-03-03 12:08:39,251 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/search/:keyword
+[tale] 2017-03-03 12:08:39,251 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/search/:keyword/:page
+[tale] 2017-03-03 12:08:39,253 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/comment
+[tale] 2017-03-03 12:08:39,253 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/article/:cid
+[tale] 2017-03-03 12:08:39,253 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/logout
+[tale] 2017-03-03 12:08:39,254 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/category/:keyword
+[tale] 2017-03-03 12:08:39,254 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/category/:keyword/:page
+[tale] 2017-03-03 12:08:39,254 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/tag/:name
+[tale] 2017-03-03 12:08:39,254 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/tag/:name/:page
+[tale] 2017-03-03 12:08:39,255 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/:pagename
+[tale] 2017-03-03 12:08:39,255 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/links
+[tale] 2017-03-03 12:08:39,255 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/feed
+[tale] 2017-03-03 12:08:39,255 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/feed.xml
+[tale] 2017-03-03 12:08:39,255 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/archives
+[tale] 2017-03-03 12:08:39,256 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/install
+[tale] 2017-03-03 12:08:39,256 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/install
+[tale] 2017-03-03 12:08:39,257 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/install/conn_test
+[tale] 2017-03-03 12:08:39,257 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/category
+[tale] 2017-03-03 12:08:39,258 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/category/delete
+[tale] 2017-03-03 12:08:39,258 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/category/save
+[tale] 2017-03-03 12:08:39,270 INFO  [main] com.blade.mvc.route.Routers | Add Interceptor: BEFORE	/.*
+[tale] 2017-03-03 12:08:39,270 INFO  [main] com.blade.mvc.route.Routers | Add Interceptor: AFTER	/.*
+[tale] 2017-03-03 12:08:39,333 WARN  [main] com.blade.ioc.Ioc | Duplicated Bean: com.tale.init.WebContext
+[tale] 2017-03-03 12:08:39,717 INFO  [main] com.blade.ioc.IocApplication | Add Object: [com.tale.controller.admin.AuthController@149d738, com.tale.controller.admin.AttachController@1be85a8, com.tale.controller.IndexController@7442c7, com.tale.service.impl.AttachServiceImpl@1e29ed9, com.tale.controller.admin.IndexController@8d708a, com.tale.interceptor.BaseInterceptor@1013c76, com.tale.service.impl.UsersServiceImpl@1fb3dab, com.tale.init.WebContext@b0755b, com.tale.controller.admin.LinksController@1065d67, com.tale.service.impl.SiteServiceImpl@12625fd, com.tale.init.WebContext@1ba5817, com.tale.service.impl.ContentsServiceImpl@2ff096, com.tale.service.impl.SiteServiceImpl@12625fd, com.tale.service.impl.OptionsServiceImpl@1437611, com.blade.jdbc.ar.SampleActiveRecord@10aac89, com.tale.service.impl.AttachServiceImpl@1e29ed9, com.tale.service.impl.UsersServiceImpl@1fb3dab, com.tale.controller.admin.CategoryController@5920df, com.tale.service.impl.CommentsServiceImpl@1f9d882, com.tale.service.impl.CommentsServiceImpl@1f9d882, com.tale.controller.admin.PageController@1e4c792, com.tale.service.impl.MetasServiceImpl@16a42c3, com.tale.controller.InstallController@60d6e9, com.tale.interceptor.BaseInterceptor@1013c76, com.tale.service.impl.ContentsServiceImpl@2ff096, com.tale.service.impl.MetasServiceImpl@16a42c3, com.tale.service.impl.OptionsServiceImpl@1437611, com.tale.controller.admin.ArticleController@1043a2f, com.tale.init.WebContext@1ba5817, com.blade.jdbc.ar.SampleActiveRecord@10aac89]
+[tale] 2017-03-03 12:08:39,727 INFO  [main] com.blade.mvc.context.BladeInitListener | blade.isDev	=> false
+[tale] 2017-03-03 12:08:39,729 INFO  [main] com.blade.mvc.context.BladeInitListener | Tale (塌了) initialize successfully, Time elapsed: 572 ms.
+[tale] 2017-03-03 12:08:39,787 INFO  [main] jetbrick.template.JetEngineImpl | JetEngine.version = 2.1.2
+[tale] 2017-03-03 12:08:39,787 INFO  [main] jetbrick.template.JetEngineImpl | JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+[tale] 2017-03-03 12:08:39,796 INFO  [main] jetbrick.template.resolver.clazz.ClassResolver | import package: java.lang.*
+[tale] 2017-03-03 12:08:39,796 INFO  [main] jetbrick.template.resolver.clazz.ClassResolver | import package: java.util.*
+[tale] 2017-03-03 12:08:39,798 INFO  [main] jetbrick.template.resolver.method.MethodInvokerResolver | import 29 methods from class jetbrick.template.runtime.buildin.JetMethods
+[tale] 2017-03-03 12:08:39,800 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+[tale] 2017-03-03 12:08:39,801 INFO  [main] jetbrick.template.resolver.tag.TagInvokerResolver | import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+[tale] 2017-03-03 12:08:39,887 INFO  [main] jetbrick.template.JetTemplateImpl | Loading template: /comm/macros.html
+[tale] 2017-03-03 12:08:40,688 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 26 functions from class com.tale.ext.Commons
+[tale] 2017-03-03 12:08:40,690 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 2 functions from class com.tale.ext.AdminCommons
+[tale] 2017-03-03 12:08:40,691 INFO  [main] jetbrick.template.resolver.tag.TagInvokerResolver | import 1 tags from class com.tale.ext.JetTag
+[tale] 2017-03-03 12:08:43,771 INFO  [main] com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+[tale] 2017-03-03 12:08:45,074 DEBUG [main] org.sql2o.Query | Executing query:
+select description,name,value from t_options order by name desc
+[tale] 2017-03-03 12:08:45,167 DEBUG [main] org.sql2o.Query | total: 93 ms, execution: 77 ms, reading and parsing: 16 ms; executed [null]
+[tale] 2017-03-03 12:08:45,198 INFO  [main] com.blade.mvc.dispatch.AbsDispatcherServlet | init worker thread pool.
+[tale] 2017-03-03 12:08:45,198 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler | Started o.e.j.w.WebAppContext@518ccf{/,file:///G:/git/tale/target/classes/,AVAILABLE}
+[tale] 2017-03-03 12:08:45,258 INFO  [main] org.eclipse.jetty.server.AbstractConnector | Started ServerConnector@5b8a71{HTTP/1.1,[http/1.1]}{127.0.0.1:9001}
+[tale] 2017-03-03 12:08:45,259 INFO  [main] org.eclipse.jetty.server.Server | Started @8654ms
+[tale] 2017-03-03 12:08:45,259 INFO  [main] com.blade.embedd.EmbedJettyServer | Blade Server Listen on 127.0.0.1:9001
+[tale] 2017-03-03 12:08:58,460 INFO  [blade-pool-26] com.blade.mvc.dispatch.DispatcherHandler | GET	/	HTTP/1.1
+[tale] 2017-03-03 12:08:58,534 INFO  [blade-pool-26] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 12:08:58,534 INFO  [blade-pool-26] com.tale.interceptor.BaseInterceptor | 用户访问地址: /, 来路地址: 127.0.0.1
+[tale] 2017-03-03 12:08:58,653 DEBUG [blade-pool-26] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where type = ? and status = ?) tmp_count
+[tale] 2017-03-03 12:08:58,653 DEBUG [blade-pool-26] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where type = ? and status = ?) tmp_count
+[tale] 2017-03-03 12:08:58,695 DEBUG [blade-pool-26] org.sql2o.Query | total: 42 ms; executed scalar [No name]
+[tale] 2017-03-03 12:08:58,705 DEBUG [blade-pool-26] org.sql2o.Query | Executing query:
+select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where type = ? and status = ? order by created desc limit 0,12
+[tale] 2017-03-03 12:08:58,750 DEBUG [blade-pool-26] org.sql2o.Query | total: 45 ms, execution: 44 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 12:08:58,759 INFO  [blade-pool-26] jetbrick.template.JetTemplateImpl | Loading template: themes/default/index.html
+[tale] 2017-03-03 12:08:58,812 INFO  [blade-pool-26] jetbrick.template.JetTemplateImpl | Loading template: themes/default/header.html
+[tale] 2017-03-03 12:08:59,354 INFO  [blade-pool-26] jetbrick.template.JetTemplateImpl | Loading template: themes/default/footer.html
+[tale] 2017-03-03 12:08:59,363 DEBUG [blade-pool-26] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ?) tmp_count
+[tale] 2017-03-03 12:08:59,363 DEBUG [blade-pool-26] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ?) tmp_count
+[tale] 2017-03-03 12:08:59,404 DEBUG [blade-pool-26] org.sql2o.Query | total: 41 ms; executed scalar [No name]
+[tale] 2017-03-03 12:08:59,405 DEBUG [blade-pool-26] org.sql2o.Query | Executing query:
+select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ? order by created limit 0,8
+[tale] 2017-03-03 12:08:59,447 DEBUG [blade-pool-26] org.sql2o.Query | total: 42 ms, execution: 41 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 12:08:59,454 DEBUG [blade-pool-26] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments) tmp_count
+[tale] 2017-03-03 12:08:59,455 DEBUG [blade-pool-26] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments) tmp_count
+[tale] 2017-03-03 12:08:59,495 DEBUG [blade-pool-26] org.sql2o.Query | total: 40 ms; executed scalar [No name]
+[tale] 2017-03-03 12:08:59,503 DEBUG [blade-pool-26] org.sql2o.Query | Executing query:
+select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments order by created desc limit 0,8
+[tale] 2017-03-03 12:08:59,544 DEBUG [blade-pool-26] org.sql2o.Query | total: 41 ms, execution: 41 ms, reading and parsing: 0 ms; executed [null]
+[tale] 2017-03-03 12:10:02,547 INFO  [blade-pool-19] com.blade.mvc.dispatch.DispatcherHandler | GET	/article/2	HTTP/1.1
+[tale] 2017-03-03 12:10:02,553 INFO  [blade-pool-19] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 12:10:02,553 INFO  [blade-pool-19] com.tale.interceptor.BaseInterceptor | 用户访问地址: /article/2, 来路地址: 127.0.0.1
+[tale] 2017-03-03 12:10:02,603 DEBUG [blade-pool-19] org.sql2o.Query | Executing query:
+select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where cid = ?
+[tale] 2017-03-03 12:10:02,649 DEBUG [blade-pool-19] org.sql2o.Query | total: 46 ms, execution: 45 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 12:10:02,650 DEBUG [blade-pool-19] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments where cid = ? and parent = ?) tmp_count
+[tale] 2017-03-03 12:10:02,650 DEBUG [blade-pool-19] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments where cid = ? and parent = ?) tmp_count
+[tale] 2017-03-03 12:10:02,695 DEBUG [blade-pool-19] org.sql2o.Query | total: 45 ms; executed scalar [No name]
+[tale] 2017-03-03 12:10:02,695 DEBUG [blade-pool-19] org.sql2o.Query | Executing query:
+select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments where cid = ? and parent = ? order by coid desc limit 0,6
+[tale] 2017-03-03 12:10:02,742 DEBUG [blade-pool-19] org.sql2o.Query | total: 47 ms, execution: 46 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 12:10:02,752 INFO  [blade-pool-19] jetbrick.template.JetTemplateImpl | Loading template: themes/default/post.html
+[tale] 2017-03-03 12:10:02,798 INFO  [blade-pool-19] jetbrick.template.JetTemplateImpl | Loading template: themes/default/comments.html
+[tale] 2017-03-03 12:10:02,816 INFO  [blade-pool-19] jetbrick.template.JetTemplateImpl | Loading template: /comm/tale_comment.html
+[tale] 2017-03-03 12:10:02,819 DEBUG [blade-pool-19] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ?) tmp_count
+[tale] 2017-03-03 12:10:02,819 DEBUG [blade-pool-19] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ?) tmp_count
+[tale] 2017-03-03 12:10:02,860 DEBUG [blade-pool-19] org.sql2o.Query | total: 41 ms; executed scalar [No name]
+[tale] 2017-03-03 12:10:02,861 DEBUG [blade-pool-19] org.sql2o.Query | Executing query:
+select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ? order by created limit 0,8
+[tale] 2017-03-03 12:10:02,903 DEBUG [blade-pool-19] org.sql2o.Query | total: 42 ms, execution: 41 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 12:10:02,904 DEBUG [blade-pool-19] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments) tmp_count
+[tale] 2017-03-03 12:10:02,905 DEBUG [blade-pool-19] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments) tmp_count
+[tale] 2017-03-03 12:10:02,947 DEBUG [blade-pool-19] org.sql2o.Query | total: 42 ms; executed scalar [No name]
+[tale] 2017-03-03 12:10:02,947 DEBUG [blade-pool-19] org.sql2o.Query | Executing query:
+select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments order by created desc limit 0,8
+[tale] 2017-03-03 12:10:02,988 DEBUG [blade-pool-19] org.sql2o.Query | total: 41 ms, execution: 41 ms, reading and parsing: 0 ms; executed [null]
+[tale] 2017-03-03 12:10:31,881 INFO  [blade-pool-25] com.blade.mvc.dispatch.DispatcherHandler | GET	/category/linux	HTTP/1.1
+[tale] 2017-03-03 12:10:31,884 INFO  [blade-pool-25] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 12:10:31,884 INFO  [blade-pool-25] com.tale.interceptor.BaseInterceptor | 用户访问地址: /category/linux, 来路地址: 127.0.0.1
+[tale] 2017-03-03 12:10:31,893 DEBUG [blade-pool-25] org.sql2o.Query | Executing query:
+select a.*, count(b.cid) as count from t_metas a left join `t_relationships` b on a.mid = b.mid where a.type = ? and a.name = ? group by a.mid
+[tale] 2017-03-03 12:10:31,935 DEBUG [blade-pool-25] org.sql2o.Query | total: 42 ms, execution: 41 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 12:10:31,939 DEBUG [blade-pool-25] org.sql2o.Query | Executing query:
+select count(0) from t_contents a left join t_relationships b on a.cid = b.cid where b.mid = ? and a.status = 'publish' and a.type = 'post'
+[tale] 2017-03-03 12:10:31,986 DEBUG [blade-pool-25] org.sql2o.Query | total: 47 ms, execution: 46 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 12:10:31,986 DEBUG [blade-pool-25] org.sql2o.Query | Executing query:
+select a.* from t_contents a left join t_relationships b on a.cid = b.cid where b.mid = ? and a.status = 'publish' and a.type = 'post' order by a.created desc limit 0,12
+[tale] 2017-03-03 12:10:32,090 DEBUG [blade-pool-25] org.sql2o.Query | total: 104 ms, execution: 103 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 12:10:32,094 INFO  [blade-pool-25] jetbrick.template.JetTemplateImpl | Loading template: themes/default/page-category.html
+[tale] 2017-03-03 12:10:32,101 DEBUG [blade-pool-25] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ?) tmp_count
+[tale] 2017-03-03 12:10:32,102 DEBUG [blade-pool-25] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ?) tmp_count
+[tale] 2017-03-03 12:10:32,143 DEBUG [blade-pool-25] org.sql2o.Query | total: 41 ms; executed scalar [No name]
+[tale] 2017-03-03 12:10:32,143 DEBUG [blade-pool-25] org.sql2o.Query | Executing query:
+select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ? order by created limit 0,8
+[tale] 2017-03-03 12:10:32,189 DEBUG [blade-pool-25] org.sql2o.Query | total: 46 ms, execution: 45 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 12:10:32,189 DEBUG [blade-pool-25] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments) tmp_count
+[tale] 2017-03-03 12:10:32,190 DEBUG [blade-pool-25] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments) tmp_count
+[tale] 2017-03-03 12:10:32,230 DEBUG [blade-pool-25] org.sql2o.Query | total: 40 ms; executed scalar [No name]
+[tale] 2017-03-03 12:10:32,230 DEBUG [blade-pool-25] org.sql2o.Query | Executing query:
+select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments order by created desc limit 0,8
+[tale] 2017-03-03 12:10:32,272 DEBUG [blade-pool-25] org.sql2o.Query | total: 42 ms, execution: 42 ms, reading and parsing: 0 ms; executed [null]
+[tale] 2017-03-03 12:10:37,689 INFO  [blade-pool-15] com.blade.mvc.dispatch.DispatcherHandler | GET	/about	HTTP/1.1
+[tale] 2017-03-03 12:10:37,696 INFO  [blade-pool-15] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 12:10:37,697 INFO  [blade-pool-15] com.tale.interceptor.BaseInterceptor | 用户访问地址: /about, 来路地址: 127.0.0.1
+[tale] 2017-03-03 12:10:37,700 DEBUG [blade-pool-15] org.sql2o.Query | Executing query:
+select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where slug = ?
+[tale] 2017-03-03 12:10:37,741 DEBUG [blade-pool-15] org.sql2o.Query | total: 41 ms, execution: 41 ms, reading and parsing: 0 ms; executed [null]
+[tale] 2017-03-03 12:10:37,742 DEBUG [blade-pool-15] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments where cid = ? and parent = ?) tmp_count
+[tale] 2017-03-03 12:10:37,742 DEBUG [blade-pool-15] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments where cid = ? and parent = ?) tmp_count
+[tale] 2017-03-03 12:10:37,782 DEBUG [blade-pool-15] org.sql2o.Query | total: 40 ms; executed scalar [No name]
+[tale] 2017-03-03 12:10:37,782 DEBUG [blade-pool-15] org.sql2o.Query | Executing query:
+select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments where cid = ? and parent = ? order by coid desc limit 0,6
+[tale] 2017-03-03 12:10:37,824 DEBUG [blade-pool-15] org.sql2o.Query | total: 42 ms, execution: 42 ms, reading and parsing: 0 ms; executed [null]
+[tale] 2017-03-03 12:10:37,830 INFO  [blade-pool-15] jetbrick.template.JetTemplateImpl | Loading template: themes/default/page.html
+[tale] 2017-03-03 12:10:37,845 DEBUG [blade-pool-15] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ?) tmp_count
+[tale] 2017-03-03 12:10:37,845 DEBUG [blade-pool-15] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ?) tmp_count
+[tale] 2017-03-03 12:10:37,887 DEBUG [blade-pool-15] org.sql2o.Query | total: 42 ms; executed scalar [No name]
+[tale] 2017-03-03 12:10:37,887 DEBUG [blade-pool-15] org.sql2o.Query | Executing query:
+select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where status = ? and type = ? order by created limit 0,8
+[tale] 2017-03-03 12:10:37,942 DEBUG [blade-pool-15] org.sql2o.Query | total: 55 ms, execution: 54 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 12:10:37,943 DEBUG [blade-pool-15] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments) tmp_count
+[tale] 2017-03-03 12:10:37,943 DEBUG [blade-pool-15] org.sql2o.Query | Executing query:
+select count(0) from (select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments) tmp_count
+[tale] 2017-03-03 12:10:37,983 DEBUG [blade-pool-15] org.sql2o.Query | total: 40 ms; executed scalar [No name]
+[tale] 2017-03-03 12:10:37,984 DEBUG [blade-pool-15] org.sql2o.Query | Executing query:
+select agent,author,author_id,cid,coid,content,created,ip,mail,owner_id,parent,status,type,url from t_comments order by created desc limit 0,8
+[tale] 2017-03-03 12:10:38,025 DEBUG [blade-pool-15] org.sql2o.Query | total: 41 ms, execution: 40 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 23:13:28,747 INFO  [main] org.eclipse.jetty.util.log | Logging initialized @970ms to org.eclipse.jetty.util.log.Slf4jLog
+[tale] 2017-03-03 23:13:29,423 INFO  [main] org.eclipse.jetty.server.Server | jetty-9.4.0.v20161208
+[tale] 2017-03-03 23:13:30,000 INFO  [main] org.eclipse.jetty.webapp.StandardDescriptorProcessor | NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[tale] 2017-03-03 23:13:30,013 INFO  [main] org.eclipse.jetty.server.session | DefaultSessionIdManager workerName=node0
+[tale] 2017-03-03 23:13:30,014 INFO  [main] org.eclipse.jetty.server.session | No SessionScavenger set, using defaults
+[tale] 2017-03-03 23:13:30,016 INFO  [main] org.eclipse.jetty.server.session | Scavenging every 660000ms
+[tale] 2017-03-03 23:13:30,028 INFO  [main] com.blade.mvc.context.BladeInitListener | jdk.version	=> 1.8.0_31
+[tale] 2017-03-03 23:13:30,028 INFO  [main] com.blade.mvc.context.BladeInitListener | user.dir		=> G:\git\tale
+[tale] 2017-03-03 23:13:30,028 INFO  [main] com.blade.mvc.context.BladeInitListener | java.io.tmpdir	=> C:\Users\think\AppData\Local\Temp\
+[tale] 2017-03-03 23:13:30,028 INFO  [main] com.blade.mvc.context.BladeInitListener | user.timezone	=> Asia/Shanghai
+[tale] 2017-03-03 23:13:30,028 INFO  [main] com.blade.mvc.context.BladeInitListener | file.encoding	=> UTF-8
+[tale] 2017-03-03 23:13:30,032 INFO  [main] com.blade.mvc.context.BladeInitListener | blade.webroot	=> G:\git\tale\target\classes
+[tale] 2017-03-03 23:13:30,082 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/page/:p
+[tale] 2017-03-03 23:13:30,082 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/
+[tale] 2017-03-03 23:13:30,082 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/search/:keyword
+[tale] 2017-03-03 23:13:30,083 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/search/:keyword/:page
+[tale] 2017-03-03 23:13:30,085 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/comment
+[tale] 2017-03-03 23:13:30,085 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/article/:cid
+[tale] 2017-03-03 23:13:30,085 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/logout
+[tale] 2017-03-03 23:13:30,085 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/tag/:name/:page
+[tale] 2017-03-03 23:13:30,085 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/tag/:name
+[tale] 2017-03-03 23:13:30,086 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/category/:keyword
+[tale] 2017-03-03 23:13:30,086 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/category/:keyword/:page
+[tale] 2017-03-03 23:13:30,086 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/:pagename
+[tale] 2017-03-03 23:13:30,086 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/links
+[tale] 2017-03-03 23:13:30,087 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/archives
+[tale] 2017-03-03 23:13:30,087 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/feed
+[tale] 2017-03-03 23:13:30,087 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/feed.xml
+[tale] 2017-03-03 23:13:30,090 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page
+[tale] 2017-03-03 23:13:30,091 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/page/delete
+[tale] 2017-03-03 23:13:30,091 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/page/modify
+[tale] 2017-03-03 23:13:30,091 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/page/publish
+[tale] 2017-03-03 23:13:30,091 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page/new
+[tale] 2017-03-03 23:13:30,092 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page/:cid
+[tale] 2017-03-03 23:13:30,092 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/attach
+[tale] 2017-03-03 23:13:30,092 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/attach/delete
+[tale] 2017-03-03 23:13:30,093 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/attach/upload
+[tale] 2017-03-03 23:13:30,093 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin
+[tale] 2017-03-03 23:13:30,093 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/index
+[tale] 2017-03-03 23:13:30,093 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/profile
+[tale] 2017-03-03 23:13:30,093 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/backup
+[tale] 2017-03-03 23:13:30,094 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/setting
+[tale] 2017-03-03 23:13:30,094 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/profile
+[tale] 2017-03-03 23:13:30,094 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/setting
+[tale] 2017-03-03 23:13:30,094 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/password
+[tale] 2017-03-03 23:13:30,095 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/install
+[tale] 2017-03-03 23:13:30,095 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/install/conn_test
+[tale] 2017-03-03 23:13:30,095 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/install
+[tale] 2017-03-03 23:13:30,095 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/login
+[tale] 2017-03-03 23:13:30,096 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/login
+[tale] 2017-03-03 23:13:30,096 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/links
+[tale] 2017-03-03 23:13:30,096 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/links/delete
+[tale] 2017-03-03 23:13:30,096 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/links/save
+[tale] 2017-03-03 23:13:30,097 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article
+[tale] 2017-03-03 23:13:30,097 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/article/delete
+[tale] 2017-03-03 23:13:30,098 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article/:cid
+[tale] 2017-03-03 23:13:30,098 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/article/modify
+[tale] 2017-03-03 23:13:30,098 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/article/publish
+[tale] 2017-03-03 23:13:30,098 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article/publish
+[tale] 2017-03-03 23:13:30,099 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/category
+[tale] 2017-03-03 23:13:30,099 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/category/delete
+[tale] 2017-03-03 23:13:30,099 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/category/save
+[tale] 2017-03-03 23:13:30,108 INFO  [main] com.blade.mvc.route.Routers | Add Interceptor: BEFORE	/.*
+[tale] 2017-03-03 23:13:30,108 INFO  [main] com.blade.mvc.route.Routers | Add Interceptor: AFTER	/.*
+[tale] 2017-03-03 23:13:30,125 WARN  [main] com.blade.ioc.Ioc | Duplicated Bean: com.tale.init.WebContext
+[tale] 2017-03-03 23:13:30,348 INFO  [main] com.blade.ioc.IocApplication | Add Object: [com.tale.controller.admin.AuthController@81cdd1, com.tale.controller.IndexController@1c2b765, com.tale.controller.admin.AttachController@1881071, com.tale.service.impl.AttachServiceImpl@70a3d8, com.tale.controller.admin.IndexController@9d1c02, com.tale.interceptor.BaseInterceptor@eeefeb, com.tale.service.impl.UsersServiceImpl@1d0685f, com.tale.init.WebContext@91771e, com.tale.controller.admin.LinksController@ac1102, com.tale.service.impl.SiteServiceImpl@1e8284b, com.tale.init.WebContext@16e2f39, com.tale.service.impl.ContentsServiceImpl@74868d, com.tale.service.impl.SiteServiceImpl@1e8284b, com.tale.service.impl.OptionsServiceImpl@c8a2c0, com.blade.jdbc.ar.SampleActiveRecord@e6aa2, com.tale.service.impl.AttachServiceImpl@70a3d8, com.tale.service.impl.UsersServiceImpl@1d0685f, com.tale.controller.admin.CategoryController@5185bd, com.tale.service.impl.CommentsServiceImpl@bf3d14, com.tale.service.impl.CommentsServiceImpl@bf3d14, com.tale.controller.admin.PageController@1b64261, com.tale.service.impl.MetasServiceImpl@607a4f, com.tale.controller.InstallController@2663d3, com.tale.interceptor.BaseInterceptor@eeefeb, com.tale.service.impl.ContentsServiceImpl@74868d, com.tale.service.impl.MetasServiceImpl@607a4f, com.tale.service.impl.OptionsServiceImpl@c8a2c0, com.tale.controller.admin.ArticleController@190a65e, com.tale.init.WebContext@16e2f39, com.blade.jdbc.ar.SampleActiveRecord@e6aa2]
+[tale] 2017-03-03 23:13:30,361 INFO  [main] com.blade.mvc.context.BladeInitListener | blade.isDev	=> false
+[tale] 2017-03-03 23:13:30,362 INFO  [main] com.blade.mvc.context.BladeInitListener | Tale (塌了) initialize successfully, Time elapsed: 334 ms.
+[tale] 2017-03-03 23:13:30,455 INFO  [main] jetbrick.template.JetEngineImpl | JetEngine.version = 2.1.2
+[tale] 2017-03-03 23:13:30,456 INFO  [main] jetbrick.template.JetEngineImpl | JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+[tale] 2017-03-03 23:13:30,473 INFO  [main] jetbrick.template.resolver.clazz.ClassResolver | import package: java.lang.*
+[tale] 2017-03-03 23:13:30,473 INFO  [main] jetbrick.template.resolver.clazz.ClassResolver | import package: java.util.*
+[tale] 2017-03-03 23:13:30,474 INFO  [main] jetbrick.template.resolver.method.MethodInvokerResolver | import 29 methods from class jetbrick.template.runtime.buildin.JetMethods
+[tale] 2017-03-03 23:13:30,477 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+[tale] 2017-03-03 23:13:30,478 INFO  [main] jetbrick.template.resolver.tag.TagInvokerResolver | import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+[tale] 2017-03-03 23:13:30,539 INFO  [main] jetbrick.template.JetTemplateImpl | Loading template: /comm/macros.html
+[tale] 2017-03-03 23:13:30,874 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 26 functions from class com.tale.ext.Commons
+[tale] 2017-03-03 23:13:30,876 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 2 functions from class com.tale.ext.AdminCommons
+[tale] 2017-03-03 23:13:30,877 INFO  [main] jetbrick.template.resolver.tag.TagInvokerResolver | import 1 tags from class com.tale.ext.JetTag
+[tale] 2017-03-03 23:13:46,902 INFO  [main] com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+[tale] 2017-03-03 23:13:47,024 DEBUG [main] org.sql2o.Query | Executing query:
+select description,name,value from t_options order by name desc
+[tale] 2017-03-03 23:13:47,437 DEBUG [main] org.sql2o.Query | total: 412 ms, execution: 375 ms, reading and parsing: 37 ms; executed [null]
+[tale] 2017-03-03 23:13:47,554 INFO  [main] com.blade.mvc.dispatch.AbsDispatcherServlet | init worker thread pool.
+[tale] 2017-03-03 23:13:47,555 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler | Started o.e.j.w.WebAppContext@1def8f8{/,file:///G:/git/tale/target/classes/,AVAILABLE}
+[tale] 2017-03-03 23:13:47,673 INFO  [main] org.eclipse.jetty.server.AbstractConnector | Started ServerConnector@35e847{HTTP/1.1,[http/1.1]}{127.0.0.1:9001}
+[tale] 2017-03-03 23:13:47,673 INFO  [main] org.eclipse.jetty.server.Server | Started @19906ms
+[tale] 2017-03-03 23:13:47,674 INFO  [main] com.blade.embedd.EmbedJettyServer | Blade Server Listen on 127.0.0.1:9001
+[tale] 2017-03-03 23:40:15,889 INFO  [main] org.eclipse.jetty.util.log | Logging initialized @814ms to org.eclipse.jetty.util.log.Slf4jLog
+[tale] 2017-03-03 23:40:16,249 INFO  [main] org.eclipse.jetty.server.Server | jetty-9.4.0.v20161208
+[tale] 2017-03-03 23:40:16,890 INFO  [main] org.eclipse.jetty.webapp.StandardDescriptorProcessor | NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[tale] 2017-03-03 23:40:16,912 INFO  [main] org.eclipse.jetty.server.session | DefaultSessionIdManager workerName=node0
+[tale] 2017-03-03 23:40:16,912 INFO  [main] org.eclipse.jetty.server.session | No SessionScavenger set, using defaults
+[tale] 2017-03-03 23:40:16,917 INFO  [main] org.eclipse.jetty.server.session | Scavenging every 660000ms
+[tale] 2017-03-03 23:40:16,935 INFO  [main] com.blade.mvc.context.BladeInitListener | jdk.version	=> 1.8.0_31
+[tale] 2017-03-03 23:40:16,936 INFO  [main] com.blade.mvc.context.BladeInitListener | user.dir		=> G:\git\tale
+[tale] 2017-03-03 23:40:16,936 INFO  [main] com.blade.mvc.context.BladeInitListener | java.io.tmpdir	=> C:\Users\think\AppData\Local\Temp\
+[tale] 2017-03-03 23:40:16,936 INFO  [main] com.blade.mvc.context.BladeInitListener | user.timezone	=> Asia/Shanghai
+[tale] 2017-03-03 23:40:16,936 INFO  [main] com.blade.mvc.context.BladeInitListener | file.encoding	=> UTF-8
+[tale] 2017-03-03 23:40:16,941 INFO  [main] com.blade.mvc.context.BladeInitListener | blade.webroot	=> G:\git\tale\target\classes
+[tale] 2017-03-03 23:40:16,987 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/page/:p
+[tale] 2017-03-03 23:40:16,988 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/
+[tale] 2017-03-03 23:40:16,988 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/search/:keyword
+[tale] 2017-03-03 23:40:16,989 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/search/:keyword/:page
+[tale] 2017-03-03 23:40:16,992 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/comment
+[tale] 2017-03-03 23:40:16,993 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/article/:cid
+[tale] 2017-03-03 23:40:16,994 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/logout
+[tale] 2017-03-03 23:40:16,994 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/tag/:name/:page
+[tale] 2017-03-03 23:40:16,994 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/tag/:name
+[tale] 2017-03-03 23:40:16,995 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/category/:keyword
+[tale] 2017-03-03 23:40:16,995 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/category/:keyword/:page
+[tale] 2017-03-03 23:40:16,995 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/:pagename
+[tale] 2017-03-03 23:40:16,996 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/links
+[tale] 2017-03-03 23:40:16,997 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/feed
+[tale] 2017-03-03 23:40:16,997 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/feed.xml
+[tale] 2017-03-03 23:40:16,998 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/archives
+[tale] 2017-03-03 23:40:17,002 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page
+[tale] 2017-03-03 23:40:17,002 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/page/delete
+[tale] 2017-03-03 23:40:17,003 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/page/modify
+[tale] 2017-03-03 23:40:17,003 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/page/publish
+[tale] 2017-03-03 23:40:17,003 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page/:cid
+[tale] 2017-03-03 23:40:17,004 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page/new
+[tale] 2017-03-03 23:40:17,004 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/attach
+[tale] 2017-03-03 23:40:17,005 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/attach/delete
+[tale] 2017-03-03 23:40:17,005 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/attach/upload
+[tale] 2017-03-03 23:40:17,006 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin
+[tale] 2017-03-03 23:40:17,006 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/index
+[tale] 2017-03-03 23:40:17,006 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/profile
+[tale] 2017-03-03 23:40:17,006 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/backup
+[tale] 2017-03-03 23:40:17,007 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/setting
+[tale] 2017-03-03 23:40:17,007 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/profile
+[tale] 2017-03-03 23:40:17,007 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/setting
+[tale] 2017-03-03 23:40:17,008 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/password
+[tale] 2017-03-03 23:40:17,008 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/install
+[tale] 2017-03-03 23:40:17,009 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/install/conn_test
+[tale] 2017-03-03 23:40:17,009 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/install
+[tale] 2017-03-03 23:40:17,010 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/login
+[tale] 2017-03-03 23:40:17,010 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/login
+[tale] 2017-03-03 23:40:17,011 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/links
+[tale] 2017-03-03 23:40:17,011 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/links/delete
+[tale] 2017-03-03 23:40:17,011 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/links/save
+[tale] 2017-03-03 23:40:17,012 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article
+[tale] 2017-03-03 23:40:17,013 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/article/delete
+[tale] 2017-03-03 23:40:17,013 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article/publish
+[tale] 2017-03-03 23:40:17,014 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article/:cid
+[tale] 2017-03-03 23:40:17,014 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/article/publish
+[tale] 2017-03-03 23:40:17,015 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/article/modify
+[tale] 2017-03-03 23:40:17,015 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/category
+[tale] 2017-03-03 23:40:17,016 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/category/delete
+[tale] 2017-03-03 23:40:17,016 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/category/save
+[tale] 2017-03-03 23:40:17,027 INFO  [main] com.blade.mvc.route.Routers | Add Interceptor: BEFORE	/.*
+[tale] 2017-03-03 23:40:17,027 INFO  [main] com.blade.mvc.route.Routers | Add Interceptor: AFTER	/.*
+[tale] 2017-03-03 23:40:17,048 WARN  [main] com.blade.ioc.Ioc | Duplicated Bean: com.tale.init.WebContext
+[tale] 2017-03-03 23:40:17,204 INFO  [main] com.blade.ioc.IocApplication | Add Object: [com.tale.controller.admin.AuthController@81cdd1, com.tale.controller.IndexController@1c2b765, com.tale.controller.admin.AttachController@1881071, com.tale.service.impl.AttachServiceImpl@70a3d8, com.tale.controller.admin.IndexController@9d1c02, com.tale.interceptor.BaseInterceptor@eeefeb, com.tale.service.impl.UsersServiceImpl@1d0685f, com.tale.init.WebContext@91771e, com.tale.controller.admin.LinksController@ac1102, com.tale.service.impl.SiteServiceImpl@1e8284b, com.tale.init.WebContext@16e2f39, com.tale.service.impl.ContentsServiceImpl@74868d, com.tale.service.impl.SiteServiceImpl@1e8284b, com.tale.service.impl.OptionsServiceImpl@c8a2c0, com.blade.jdbc.ar.SampleActiveRecord@e6aa2, com.tale.service.impl.AttachServiceImpl@70a3d8, com.tale.service.impl.UsersServiceImpl@1d0685f, com.tale.controller.admin.CategoryController@5185bd, com.tale.service.impl.CommentsServiceImpl@bf3d14, com.tale.service.impl.CommentsServiceImpl@bf3d14, com.tale.controller.admin.PageController@1b64261, com.tale.service.impl.MetasServiceImpl@607a4f, com.tale.controller.InstallController@2663d3, com.tale.interceptor.BaseInterceptor@eeefeb, com.tale.service.impl.ContentsServiceImpl@74868d, com.tale.service.impl.MetasServiceImpl@607a4f, com.tale.service.impl.OptionsServiceImpl@c8a2c0, com.tale.controller.admin.ArticleController@190a65e, com.tale.init.WebContext@16e2f39, com.blade.jdbc.ar.SampleActiveRecord@e6aa2]
+[tale] 2017-03-03 23:40:17,222 INFO  [main] com.blade.mvc.context.BladeInitListener | blade.isDev	=> false
+[tale] 2017-03-03 23:40:17,224 INFO  [main] com.blade.mvc.context.BladeInitListener | Tale (塌了) initialize successfully, Time elapsed: 288 ms.
+[tale] 2017-03-03 23:40:17,309 INFO  [main] jetbrick.template.JetEngineImpl | JetEngine.version = 2.1.2
+[tale] 2017-03-03 23:40:17,309 INFO  [main] jetbrick.template.JetEngineImpl | JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+[tale] 2017-03-03 23:40:17,320 INFO  [main] jetbrick.template.resolver.clazz.ClassResolver | import package: java.lang.*
+[tale] 2017-03-03 23:40:17,321 INFO  [main] jetbrick.template.resolver.clazz.ClassResolver | import package: java.util.*
+[tale] 2017-03-03 23:40:17,323 INFO  [main] jetbrick.template.resolver.method.MethodInvokerResolver | import 29 methods from class jetbrick.template.runtime.buildin.JetMethods
+[tale] 2017-03-03 23:40:17,325 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+[tale] 2017-03-03 23:40:17,327 INFO  [main] jetbrick.template.resolver.tag.TagInvokerResolver | import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+[tale] 2017-03-03 23:40:17,341 INFO  [main] jetbrick.template.JetTemplateImpl | Loading template: /comm/macros.html
+[tale] 2017-03-03 23:40:17,641 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 26 functions from class com.tale.ext.Commons
+[tale] 2017-03-03 23:40:17,643 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 2 functions from class com.tale.ext.AdminCommons
+[tale] 2017-03-03 23:40:17,643 INFO  [main] jetbrick.template.resolver.tag.TagInvokerResolver | import 1 tags from class com.tale.ext.JetTag
+[tale] 2017-03-03 23:40:32,678 INFO  [main] com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+[tale] 2017-03-03 23:40:32,861 DEBUG [main] org.sql2o.Query | Executing query:
+select description,name,value from t_options order by name desc
+[tale] 2017-03-03 23:40:34,326 DEBUG [main] org.sql2o.Query | total: 1464 ms, execution: 1435 ms, reading and parsing: 29 ms; executed [null]
+[tale] 2017-03-03 23:40:34,359 INFO  [main] com.blade.mvc.dispatch.AbsDispatcherServlet | init worker thread pool.
+[tale] 2017-03-03 23:40:34,359 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler | Started o.e.j.w.WebAppContext@1def8f8{/,file:///G:/git/tale/target/classes/,AVAILABLE}
+[tale] 2017-03-03 23:40:34,408 INFO  [main] org.eclipse.jetty.server.AbstractConnector | Started ServerConnector@35e847{HTTP/1.1,[http/1.1]}{127.0.0.1:9001}
+[tale] 2017-03-03 23:40:34,409 INFO  [main] org.eclipse.jetty.server.Server | Started @19342ms
+[tale] 2017-03-03 23:40:34,409 INFO  [main] com.blade.embedd.EmbedJettyServer | Blade Server Listen on 127.0.0.1:9001
+[tale] 2017-03-03 23:41:20,323 INFO  [blade-pool-10] com.blade.mvc.dispatch.DispatcherHandler | GET	/	HTTP/1.1
+[tale] 2017-03-03 23:41:20,383 INFO  [blade-pool-10] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 23:41:20,384 INFO  [blade-pool-10] com.tale.interceptor.BaseInterceptor | 用户访问地址: /, 来路地址: 127.0.0.1
+[tale] 2017-03-03 23:41:20,461 DEBUG [blade-pool-10] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where type = ? and status = ?) tmp_count
+[tale] 2017-03-03 23:41:20,461 DEBUG [blade-pool-10] org.sql2o.Query | Executing query:
+select count(0) from (select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where type = ? and status = ?) tmp_count
+[tale] 2017-03-03 23:41:20,689 DEBUG [blade-pool-10] org.sql2o.Query | total: 228 ms; executed scalar [No name]
+[tale] 2017-03-03 23:41:20,707 DEBUG [blade-pool-10] org.sql2o.Query | Executing query:
+select allow_comment,allow_feed,allow_ping,author_id,categories,cid,comments_num,content,created,hits,modified,slug,status,tags,title,type from t_contents where type = ? and status = ? order by created desc limit 0,12
+[tale] 2017-03-03 23:41:20,998 DEBUG [blade-pool-10] org.sql2o.Query | total: 291 ms, execution: 290 ms, reading and parsing: 1 ms; executed [null]
+[tale] 2017-03-03 23:41:21,006 INFO  [blade-pool-10] jetbrick.template.JetTemplateImpl | Loading template: themes/default/index.html
+[tale] 2017-03-03 23:41:21,030 INFO  [blade-pool-10] jetbrick.template.JetTemplateImpl | Loading template: themes/default/header.html
+[tale] 2017-03-03 23:41:21,044 ERROR [blade-pool-10] com.blade.mvc.http.wrapper.ServletResponse | 
+jetbrick.template.runtime.InterpretException: cannot resolve function: meta_keywords()
+
+template: themes/default/header.html: 10,37
+-------------------------------------------------------------------------------
+  8:     <meta http-equiv="Cache-Control" content="no-transform"/>
+  9:     <meta http-equiv="Cache-Control" content="no-siteapp"/>
+ 10:     <meta name="keywords" content="${meta_keywords()}"/>
+                                          ^ -- here
+ 11:     <meta name="description" content="${meta_description()}"/>
+ 12:     <link rel="shortcut icon" href="${theme_url('/static/img/favicon.png')}"/>
+-------------------------------------------------------------------------------
+
+	at jetbrick.template.parser.ast.AstInvokeFunction.doInvoke(AstInvokeFunction.java:66)
+	at jetbrick.template.parser.ast.AstInvokeFunction.execute(AstInvokeFunction.java:54)
+	at jetbrick.template.parser.ast.AstValue.execute(AstValue.java:36)
+	at jetbrick.template.parser.ast.AstStatementList.execute(AstStatementList.java:212)
+	at jetbrick.template.parser.ast.AstTemplate.execute(AstTemplate.java:37)
+	at jetbrick.template.runtime.InterpretContextImpl.doIncludeCall(InterpretContextImpl.java:132)
+	at jetbrick.template.parser.ast.AstDirectiveInclude.execute(AstDirectiveInclude.java:67)
+	at jetbrick.template.parser.ast.AstStatementList.execute(AstStatementList.java:212)
+	at jetbrick.template.parser.ast.AstTemplate.execute(AstTemplate.java:37)
+	at jetbrick.template.JetTemplateImpl.doInterpret(JetTemplateImpl.java:160)
+	at jetbrick.template.JetTemplateImpl.render(JetTemplateImpl.java:141)
+	at com.blade.mvc.view.template.JetbrickTemplateEngine.render(JetbrickTemplateEngine.java:106)
+	at com.blade.mvc.http.wrapper.ServletResponse.render(ServletResponse.java:275)
+	at com.blade.mvc.view.resolve.RouteViewResolve.handle(RouteViewResolve.java:64)
+	at com.blade.mvc.dispatch.DispatcherHandler.routeHandle(DispatcherHandler.java:184)
+	at com.blade.mvc.dispatch.DispatcherHandler.handle(DispatcherHandler.java:94)
+	at com.blade.mvc.dispatch.DispatcherServlet.service(DispatcherServlet.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:830)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:543)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1584)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1553)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:318)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:112)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:122)
+	at org.eclipse.jetty.util.thread.strategy.ExecutingExecutionStrategy.invoke(ExecutingExecutionStrategy.java:58)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:201)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:133)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+[tale] 2017-03-03 23:44:25,007 INFO  [main] org.eclipse.jetty.util.log | Logging initialized @595ms to org.eclipse.jetty.util.log.Slf4jLog
+[tale] 2017-03-03 23:44:25,269 INFO  [main] org.eclipse.jetty.server.Server | jetty-9.4.0.v20161208
+[tale] 2017-03-03 23:44:25,711 INFO  [main] org.eclipse.jetty.webapp.StandardDescriptorProcessor | NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[tale] 2017-03-03 23:44:25,721 INFO  [main] org.eclipse.jetty.server.session | DefaultSessionIdManager workerName=node0
+[tale] 2017-03-03 23:44:25,722 INFO  [main] org.eclipse.jetty.server.session | No SessionScavenger set, using defaults
+[tale] 2017-03-03 23:44:25,725 INFO  [main] org.eclipse.jetty.server.session | Scavenging every 660000ms
+[tale] 2017-03-03 23:44:25,737 INFO  [main] com.blade.mvc.context.BladeInitListener | jdk.version	=> 1.8.0_31
+[tale] 2017-03-03 23:44:25,737 INFO  [main] com.blade.mvc.context.BladeInitListener | user.dir		=> G:\git\tale
+[tale] 2017-03-03 23:44:25,737 INFO  [main] com.blade.mvc.context.BladeInitListener | java.io.tmpdir	=> C:\Users\think\AppData\Local\Temp\
+[tale] 2017-03-03 23:44:25,737 INFO  [main] com.blade.mvc.context.BladeInitListener | user.timezone	=> Asia/Shanghai
+[tale] 2017-03-03 23:44:25,737 INFO  [main] com.blade.mvc.context.BladeInitListener | file.encoding	=> UTF-8
+[tale] 2017-03-03 23:44:25,741 INFO  [main] com.blade.mvc.context.BladeInitListener | blade.webroot	=> G:\git\tale\target\classes
+[tale] 2017-03-03 23:44:25,795 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/comments
+[tale] 2017-03-03 23:44:25,798 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/comments/delete
+[tale] 2017-03-03 23:44:25,799 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/comments/status
+[tale] 2017-03-03 23:44:25,799 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/comments
+[tale] 2017-03-03 23:44:25,801 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/login
+[tale] 2017-03-03 23:44:25,801 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/login
+[tale] 2017-03-03 23:44:25,802 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/page/:p
+[tale] 2017-03-03 23:44:25,802 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/
+[tale] 2017-03-03 23:44:25,802 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/search/:keyword
+[tale] 2017-03-03 23:44:25,803 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/search/:keyword/:page
+[tale] 2017-03-03 23:44:25,803 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/comment
+[tale] 2017-03-03 23:44:25,803 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/article/:cid
+[tale] 2017-03-03 23:44:25,804 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/:pagename
+[tale] 2017-03-03 23:44:25,804 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/logout
+[tale] 2017-03-03 23:44:25,804 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/tag/:name/:page
+[tale] 2017-03-03 23:44:25,810 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/tag/:name
+[tale] 2017-03-03 23:44:25,811 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/links
+[tale] 2017-03-03 23:44:25,811 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/archives
+[tale] 2017-03-03 23:44:25,811 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/feed
+[tale] 2017-03-03 23:44:25,811 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/feed.xml
+[tale] 2017-03-03 23:44:25,812 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/category/:keyword/:page
+[tale] 2017-03-03 23:44:25,812 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/category/:keyword
+[tale] 2017-03-03 23:44:25,813 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/install
+[tale] 2017-03-03 23:44:25,814 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/install
+[tale] 2017-03-03 23:44:25,814 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/install/conn_test
+[tale] 2017-03-03 23:44:25,815 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article
+[tale] 2017-03-03 23:44:25,815 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/article/delete
+[tale] 2017-03-03 23:44:25,816 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/article/publish
+[tale] 2017-03-03 23:44:25,816 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/article/modify
+[tale] 2017-03-03 23:44:25,817 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article/publish
+[tale] 2017-03-03 23:44:25,817 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/article/:cid
+[tale] 2017-03-03 23:44:25,818 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin
+[tale] 2017-03-03 23:44:25,818 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/index
+[tale] 2017-03-03 23:44:25,819 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/profile
+[tale] 2017-03-03 23:44:25,820 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/backup
+[tale] 2017-03-03 23:44:25,820 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/setting
+[tale] 2017-03-03 23:44:25,821 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/password
+[tale] 2017-03-03 23:44:25,821 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/advanced
+[tale] 2017-03-03 23:44:25,821 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/advanced
+[tale] 2017-03-03 23:44:25,822 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/profile
+[tale] 2017-03-03 23:44:25,822 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/setting
+[tale] 2017-03-03 23:44:25,823 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/category
+[tale] 2017-03-03 23:44:25,823 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/category/delete
+[tale] 2017-03-03 23:44:25,824 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/category/save
+[tale] 2017-03-03 23:44:25,824 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/attach
+[tale] 2017-03-03 23:44:25,825 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/attach/delete
+[tale] 2017-03-03 23:44:25,825 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/attach/upload
+[tale] 2017-03-03 23:44:25,826 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/links
+[tale] 2017-03-03 23:44:25,826 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/links/delete
+[tale] 2017-03-03 23:44:25,827 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/links/save
+[tale] 2017-03-03 23:44:25,827 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page
+[tale] 2017-03-03 23:44:25,828 INFO  [main] com.blade.mvc.route.Routers | Add Route => ALL	/admin/page/delete
+[tale] 2017-03-03 23:44:25,829 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page/:cid
+[tale] 2017-03-03 23:44:25,829 INFO  [main] com.blade.mvc.route.Routers | Add Route => GET	/admin/page/new
+[tale] 2017-03-03 23:44:25,830 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/page/modify
+[tale] 2017-03-03 23:44:25,830 INFO  [main] com.blade.mvc.route.Routers | Add Route => POST	/admin/page/publish
+[tale] 2017-03-03 23:44:25,842 INFO  [main] com.blade.mvc.route.Routers | Add Interceptor: BEFORE	/.*
+[tale] 2017-03-03 23:44:25,842 INFO  [main] com.blade.mvc.route.Routers | Add Interceptor: AFTER	/.*
+[tale] 2017-03-03 23:44:25,866 WARN  [main] com.blade.ioc.Ioc | Duplicated Bean: com.tale.init.WebContext
+[tale] 2017-03-03 23:44:25,971 INFO  [main] com.blade.ioc.IocApplication | Add Object: [com.tale.controller.admin.AuthController@1e8284b, com.tale.controller.IndexController@16e2f39, com.tale.controller.admin.AttachController@74868d, com.tale.service.impl.AttachServiceImpl@c8a2c0, com.tale.controller.admin.IndexController@e6aa2, com.tale.controller.admin.CommentController@5185bd, com.tale.interceptor.BaseInterceptor@bf3d14, com.tale.service.impl.UsersServiceImpl@1b64261, com.tale.init.WebContext@607a4f, com.tale.controller.admin.LinksController@2663d3, com.tale.service.impl.SiteServiceImpl@190a65e, com.tale.init.WebContext@485a47, com.tale.service.impl.ContentsServiceImpl@1bbf683, com.tale.service.impl.SiteServiceImpl@190a65e, com.tale.service.impl.OptionsServiceImpl@c8211c, com.blade.jdbc.ar.SampleActiveRecord@76c8cd, com.tale.service.impl.AttachServiceImpl@c8a2c0, com.tale.service.impl.UsersServiceImpl@1b64261, com.tale.controller.admin.CategoryController@4a2ea6, com.tale.service.impl.CommentsServiceImpl@3fc542, com.tale.service.impl.CommentsServiceImpl@3fc542, com.tale.controller.admin.PageController@150c158, com.tale.service.impl.MetasServiceImpl@124411f, com.tale.controller.InstallController@1e7803, com.tale.interceptor.BaseInterceptor@bf3d14, com.tale.service.impl.ContentsServiceImpl@1bbf683, com.tale.service.impl.MetasServiceImpl@124411f, com.tale.service.impl.LogServiceImpl@dba097, com.tale.service.impl.OptionsServiceImpl@c8211c, com.tale.controller.admin.ArticleController@186f9d5, com.tale.service.impl.LogServiceImpl@dba097, com.tale.init.WebContext@485a47, com.blade.jdbc.ar.SampleActiveRecord@76c8cd]
+[tale] 2017-03-03 23:44:25,984 INFO  [main] com.blade.mvc.context.BladeInitListener | blade.isDev	=> false
+[tale] 2017-03-03 23:44:25,986 INFO  [main] com.blade.mvc.context.BladeInitListener | Tale (塌了) initialize successfully, Time elapsed: 249 ms.
+[tale] 2017-03-03 23:44:26,066 INFO  [main] jetbrick.template.JetEngineImpl | JetEngine.version = 2.1.2
+[tale] 2017-03-03 23:44:26,066 INFO  [main] jetbrick.template.JetEngineImpl | JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+[tale] 2017-03-03 23:44:26,076 INFO  [main] jetbrick.template.resolver.clazz.ClassResolver | import package: java.lang.*
+[tale] 2017-03-03 23:44:26,076 INFO  [main] jetbrick.template.resolver.clazz.ClassResolver | import package: java.util.*
+[tale] 2017-03-03 23:44:26,078 INFO  [main] jetbrick.template.resolver.method.MethodInvokerResolver | import 29 methods from class jetbrick.template.runtime.buildin.JetMethods
+[tale] 2017-03-03 23:44:26,080 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+[tale] 2017-03-03 23:44:26,082 INFO  [main] jetbrick.template.resolver.tag.TagInvokerResolver | import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+[tale] 2017-03-03 23:44:26,095 INFO  [main] jetbrick.template.JetTemplateImpl | Loading template: /comm/macros.html
+[tale] 2017-03-03 23:44:26,379 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 18 functions from class com.tale.ext.Commons
+[tale] 2017-03-03 23:44:26,382 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 41 functions from class com.tale.ext.Theme
+[tale] 2017-03-03 23:44:26,383 INFO  [main] jetbrick.template.resolver.function.FunctionInvokerResolver | import 2 functions from class com.tale.ext.AdminCommons
+[tale] 2017-03-03 23:44:26,384 INFO  [main] jetbrick.template.resolver.tag.TagInvokerResolver | import 1 tags from class com.tale.ext.JetTag
+[tale] 2017-03-03 23:44:44,505 INFO  [main] com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+[tale] 2017-03-03 23:44:44,577 DEBUG [main] org.sql2o.Query | Executing query:
+select description,name,value from t_options order by name desc
+[tale] 2017-03-03 23:44:45,156 DEBUG [main] org.sql2o.Query | total: 580 ms, execution: 564 ms, reading and parsing: 16 ms; executed [null]
+[tale] 2017-03-03 23:44:45,189 INFO  [main] com.blade.mvc.dispatch.AbsDispatcherServlet | init worker thread pool.
+[tale] 2017-03-03 23:44:45,190 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler | Started o.e.j.w.WebAppContext@1a21078{/,file:///G:/git/tale/target/classes/,AVAILABLE}
+[tale] 2017-03-03 23:44:45,263 INFO  [main] org.eclipse.jetty.server.AbstractConnector | Started ServerConnector@15b7e8{HTTP/1.1,[http/1.1]}{127.0.0.1:9001}
+[tale] 2017-03-03 23:44:45,263 INFO  [main] org.eclipse.jetty.server.Server | Started @20857ms
+[tale] 2017-03-03 23:44:45,263 INFO  [main] com.blade.embedd.EmbedJettyServer | Blade Server Listen on 127.0.0.1:9001
+[tale] 2017-03-03 23:44:45,372 INFO  [blade-pool-14] com.blade.mvc.dispatch.DispatcherHandler | GET	/	HTTP/1.1
+[tale] 2017-03-03 23:44:45,436 INFO  [blade-pool-14] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 23:44:45,436 INFO  [blade-pool-14] com.tale.interceptor.BaseInterceptor | 用户访问地址: /, 来路地址: 127.0.0.1
+[tale] 2017-03-03 23:44:45,456 INFO  [blade-pool-13] com.blade.mvc.dispatch.DispatcherHandler | GET	/install	HTTP/1.1
+[tale] 2017-03-03 23:44:45,458 INFO  [blade-pool-13] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 23:44:45,458 INFO  [blade-pool-13] com.tale.interceptor.BaseInterceptor | 用户访问地址: /install, 来路地址: 127.0.0.1
+[tale] 2017-03-03 23:44:45,476 INFO  [blade-pool-13] jetbrick.template.JetTemplateImpl | Loading template: install.html
+[tale] 2017-03-03 23:45:10,543 INFO  [blade-pool-14] com.blade.mvc.dispatch.DispatcherHandler | GET	/	HTTP/1.1
+[tale] 2017-03-03 23:45:10,544 INFO  [blade-pool-14] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 23:45:10,544 INFO  [blade-pool-14] com.tale.interceptor.BaseInterceptor | 用户访问地址: /, 来路地址: 127.0.0.1
+[tale] 2017-03-03 23:45:10,551 INFO  [blade-pool-14] com.blade.mvc.dispatch.DispatcherHandler | GET	/install	HTTP/1.1
+[tale] 2017-03-03 23:45:10,552 INFO  [blade-pool-14] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 23:45:10,552 INFO  [blade-pool-14] com.tale.interceptor.BaseInterceptor | 用户访问地址: /install, 来路地址: 127.0.0.1
+[tale] 2017-03-03 23:45:19,776 INFO  [blade-pool-15] com.blade.mvc.dispatch.DispatcherHandler | GET	/	HTTP/1.1
+[tale] 2017-03-03 23:45:19,778 INFO  [blade-pool-15] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 23:45:19,778 INFO  [blade-pool-15] com.tale.interceptor.BaseInterceptor | 用户访问地址: /, 来路地址: 127.0.0.1
+[tale] 2017-03-03 23:45:19,788 INFO  [blade-pool-14] com.blade.mvc.dispatch.DispatcherHandler | GET	/install	HTTP/1.1
+[tale] 2017-03-03 23:45:19,789 INFO  [blade-pool-14] com.tale.interceptor.BaseInterceptor | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+[tale] 2017-03-03 23:45:19,789 INFO  [blade-pool-14] com.tale.interceptor.BaseInterceptor | 用户访问地址: /install, 来路地址: 127.0.0.1
