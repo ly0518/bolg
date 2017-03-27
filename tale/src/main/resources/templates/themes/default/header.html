@@ -34,15 +34,17 @@
         <div>
             <div style=" float:left;width:20%;">
                 <a href="${site_url()}" class="navbar-logo">
-                    <img src="${theme_url('/static/img/logo.png')}" alt="${site_title()}" onmousemove="showWeixin()"
-                         onmouseout="hideWeixin()"/>
+                    <img src="${theme_url('/static/img/logo.png')}" alt="${site_title()}" onmousemove="showImg()"
+                         onmouseout="hideImg()"/>
 
                 </a>
             </div>
-            <div style="float:left;width:29%;">
+            <!--微信支付宝图片-->
+            <!--<div style="float:left;width:29%;">
                 <img id="weixinImg" src="${theme_url('/static/img/weixin.jpg')}"
                      alt="${site_title()}" style="display: none; width: 80px;height: 80px"/>
-            </div>
+            </div>-->
+            <!--微信支付宝图片-->
         </div>
 
         <div class="navbar-menu">
@@ -67,19 +69,21 @@
                 <li><a href="${site_url('/archives')}">归档</a></li>
                 <li><a href="${site_url('/links')}">友链</a></li>
                 <li><a href="${site_url('/about')}">关于</a></li>
-                <li><a href="${site_url('/about')}">相册</a></li>
                 <li><a href="${site_url('/admin/login')}" target="_blank">登录</a></li>
             </ul>
         </div>
     </div>
 </header>
 
-
+<!--微信支付宝图片-->
 <script>
-    function hideWeixin() {
-        $("#weixinImg").hide();
+    function hideImg() {
+        $("#wxImg").hide();
+        $("#zfbImg").hide();
     }
-    function showWeixin() {
-        $("#weixinImg").show();
+    function showImg() {
+        $("#wxImg").show();
+        $("#zfbImg").show();
     }
 </script>
+<!--微信支付宝图片-->

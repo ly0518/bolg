@@ -1,4 +1,37 @@
 #include('./header.html',{home_page:1})
+<style>
+    .wx { /**样式的名字 对应class=xxx**/
+        /*width: 20px; !**宽度**!
+        height: 100px; !**高度**!*/
+        position: fixed; /**相对定位**/
+        left: 82.3%; /**左边50%**/
+        top: 64.5%; /**顶部50%**/
+        margin-top: -25%; /**上移-50%**/
+        /*margin-left: -30%; !**左移-50%**!*/
+        z-index: 9999;
+    }
+
+    .zfb { /**样式的名字 对应class=xxx**/
+        /*width: 20px; !**宽度**!*/
+        /*height: 100px; !**高度**!*/
+        position: fixed; /**相对定位**/
+        /*right: 50%; !**左边50%**!*/
+        top: 64.5%; /**顶部50%**/
+        margin-top: -25%; /**上移-50%**/
+        /*margin-left: -100%; !**左移-50%**!*/
+        z-index: 9998;
+    }
+</style>
+<div class="wx">
+    <img id="wxImg" style="display: none" src="${theme_url('/static/img/weixin.jpg')}"
+         alt="${site_title()}"/>
+</div>
+
+<div class="zfb">
+    <img id="zfbImg" style="display: none" src="${theme_url('/static/img/zfb.jpg')}"
+         alt="${site_title()}"/>
+</div>
+
 <div class="main-content index-page clearfix">
     <div class="post-lists">
         <div class="post-lists-body">
@@ -31,4 +64,6 @@
         #call pageNav(articles,'←','→','page')
     </div>
 </div>
+
+
 #include('./footer.html')
